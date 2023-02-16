@@ -1,126 +1,125 @@
-h2,p,ul {
-    margin-top: 0;
-    margin-bottom: 0;
+h2,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .my-logo {
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 112.5%;
-    align-items: center;
-    color: #6070ff;
-    text-align: center;
-    left: 24px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 112.5%;
+  align-items: center;
+  color: #6070ff;
+  text-align: center;
+  left: 24px;
 }
 
 .toggle-button {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    top: 106.25%;
-    right: 106.25%;
-    width: 187.5%;
-    height: 193.75%;
-
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  top: 106.25%;
+  right: 106.25%;
+  width: 187.5%;
+  height: 193.75%;
 }
 
 .toggle-button .bar {
-    height: 18.75%;
-    width: 100%;
-    background-color: #6070ff;
+  height: 18.75%;
+  width: 100%;
+  background-color: #6070ff;
 }
 
 @media only screen and (max-width: 375px) {
-    .toggle-button{
-        display: flex;
-    }
+  .toggle-button {
+    display: flex;
+  }
 }
 
-@media only screen and (max-width: 768px){
-    .toggle-button {
-        display: flex;
-    }
+@media only screen and (max-width: 768px) {
+  .toggle-button {
+    display: flex;
+  }
 }
 
 .hamburger-menu {
-    display: none;
+  display: none;
 }
 
 .hamburger-menu ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
-
 .hamburger-menu li a {
-    text-decoration: none;
-    display: block;
-    padding: 10px;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
 }
 
 .logo-nav {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .headline {
-    font-family: Poppins;
-    font-weight: bolder;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: #172B4D;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
-.headlinecontent{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #344563;
+.headlinecontent {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #344563;
 }
 
 .social_media {
-    font-family: Poppins;
-    font-style: medium;
-    font-weight: 500;
-    font-size: 16px;
-    display: flex;
-    justify-content: start;
-    color: #7F8CFF;
-    margin-top: 15px;
-    margin-bottom: 10px;
+  font-family: sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  color: #7f8cff;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .social_media_icons {
-    color: #505F79;
-    display: flex;
-    align-items: start;
-    align-content: start;
-    order: 0;
-    justify-content: start;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  color: #505f79;
+  display: flex;
+  align-items: start;
+  align-content: start;
+  order: 0;
+  justify-content: start;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .bg-shapes {
-    background: url(shapes/header-shapes\ mobile.png);
-    background-color: white;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background: url(shapes/header-shapes\ mobile.png);
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
