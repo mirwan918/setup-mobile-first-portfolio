@@ -9,9 +9,9 @@ ul {
   padding-inline-start: 0;
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
-    }
+* {
+  font-family: 'Poppins', sans-serif;
+}
 
 .navbar {
   display: flex;
@@ -117,8 +117,8 @@ ul {
 }
 
 .social_media_icons ul li {
-    text-decoration: none;
-    display: flex;
+  text-decoration: none;
+  display: flex;
 }
 
 .social_media_icons ul {
@@ -134,5 +134,4 @@ ul {
   background-color: white;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
