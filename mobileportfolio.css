@@ -1,0 +1,137 @@
+h2,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 112.5%;
+  align-items: center;
+  color: #6070ff;
+  text-align: center;
+  left: 24px;
+}
+
+.toggle-button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  top: 17px;
+  right: 17px;
+  width: 20px;
+  height: 13px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 16px;
+  background-color: #6070ff;
+}
+
+@media only screen and (max-width: 375px) {
+  .toggle-button {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .toggle-button {
+    display: flex;
+  }
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.hamburger-menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.logo-nav {
+  margin-bottom: 120px;
+}
+
+.headline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.headline_content {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #344563;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social_media {
+  font-family: 'Poppins', sans-serif;
+  font-style: medium;
+  font-weight: normal;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  color: #7f8cff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.social_media_icons ul li {
+  text-decoration: none;
+  display: flex;
+}
+
+.social_media_icons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.bg-shapes {
+  background: url(shapes/header-shapes\ mobile.png) 0% 56%;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
